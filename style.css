@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body, html {
+    height: 100%;
+	font-family: 'Times New Roman', Times, serif;
+}
+  
+.title-image {
+    height: 100%;
+    background-image: url("heart_background.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+
+.title-div {
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background-color: rgba(0,0,0, 0.4);
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    width: 70%;
+    padding: 20px;
+    text-align: center;
+}
+
+.title-text {
+    font-size: 500%;
+    color: white;
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+
+.title-button {
+    cursor: pointer;
+    padding: 7px;
+    font-size: 170%;
+    transition: 0.5s;
+    font-family: 'Love Ya Like A Sister', cursive;
+    background-color: #ff00bf;
+    border: 4px solid white;
+    border-radius: 5px;
+    color: white;
+}
+
+.title-button:hover {
+    background-color: black;
+    color: white;
+    border: 4px solid white;
+    border-radius: 5px;
+    font-size: 200%;
+}
+
+.main-information {
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+}
+
+.information-text {
+    font-size: 200%;
+}
+
+.information-title {
+    font-size: 270%;
+}
+
+.anonym-test-button {
+    font-family: Goldman;
+    font-size: 200%;
+    padding: 8px;
+    background-color: black;
+    color: white;
+    border: 0px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.anonym-test-button:hover {
+    font-size: 215%;
+    border: 5px solid black;
+    background-color: rgb(172, 172, 172);
+    color: black;
+}
